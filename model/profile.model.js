@@ -15,7 +15,7 @@ const profile = new Schema({
   },
   phone_no: {
     type: "String",
-    required: true,
+    required: false,
   },
   profile_id: {
     type: "String",
@@ -23,7 +23,7 @@ const profile = new Schema({
   },
   company: {
     type: "String",
-    required: true,
+    required: false,
   },
   linkedin_url: {
     type: "String",
@@ -31,12 +31,12 @@ const profile = new Schema({
   },
   skills: {
     type: "String",
-    required: true,
+    required: false,
   },
 
   location: {
     type: "String",
-    required: true,
+    required: false,
   },
   createdDate: {
     type: "String",
@@ -44,7 +44,7 @@ const profile = new Schema({
   },
   updatedDate: {
     type: "String",
-    required: true,
+    required: false,
   },
 });
 
